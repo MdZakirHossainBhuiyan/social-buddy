@@ -13,7 +13,7 @@ const Post = (props) => {
 
     return (
         <div>
-            <h3><strong>Id: {id} //</strong>{title}</h3>
+            <h3><strong>Id: {id} *** </strong>{title}</h3>
             <p>{body}</p>
             <button onClick={()=> showComments(id)}>Show comment</button>
         </div>
